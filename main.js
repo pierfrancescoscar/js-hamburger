@@ -13,5 +13,3 @@ const cloHambMenuBtn = document.querySelector('.close');
 console.log(cloHambMenuBtn);
 
 
-
-// Add click event
