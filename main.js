@@ -5,11 +5,24 @@
 // Open Button
 
 const hambMenuBtn = document.querySelector('a > .fa-bars');
-console.log(hambMenuBtn);
 
 // Closing Button
 
 const cloHambMenuBtn = document.querySelector('.close');
-console.log(cloHambMenuBtn);
+
+
+// Add click event
+
+hambMenuBtn.addEventListener('click', function() {
+    const hambMenu = document.querySelector('.hamburger-menu');
+    hambMenu.classList.add('active');
+})
+
+// Add closing event
+
+cloHambMenuBtn.addEventListener('click', function() {
+    const hambMenu = document.querySelector('.hamburger-menu');
+    hambMenu.classList.remove('active')
+})
 
 
